@@ -19,11 +19,11 @@
  * [Dispatch]
  * : 컴포넌트의 state 변경 요청('고객')
  * (파라미터에 요청 정보를 담아서 보내는 인터페이스 같은 것 !)
- * (배달부)
+ * (배달부) 
  * 
  * [Action]
  * : 컴포넌트의 state 변경 내용('만원 출금')
- * (배달할 알맹이)
+ * (배달할 알맹이) 작업 내용 !
  * 
  * Dispatch(Action) ---> Reducer(State, Action) ===> State Update
  * 
