@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <UseReducer03></UseReducer03>
+        <parents></parents>
       </header>
     </div>
   );
