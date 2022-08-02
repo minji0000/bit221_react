@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p>Hello</p>
+  <form>
+    <!-- 아이디에 체크박스 두면 박스말고 글씨 눌러도 눌림 -->
+    <label for="id-checkbox">체크박스:</label>
+    <input type="checkbox" id="id-checkbox"/>
+  </form>
+  <br/>
+  <br/>
+  <div id="output-box">...메시지</div>
+  <script>
+    document.querySelector('#id-checkbox').addEventListener('click',
+      function(event) {
+        document.getElementById("output-box").innerHTML
+        += '체크할 권한이 없습니다. 먼저 로그인하세요 <br/>';
+        // 아래 코드 쓰면 체크박스에 체크가 되지 않음
+        event.preventDefault();
+      }, false
+    )
+    
+
+
+  </script>
+</body>
+</html>
+
