@@ -20,16 +20,20 @@ const Btn = styled.button`
   padding: 3px;
   border-radius: 10px;
   border-color: yellow;
-  
-`
+`;
+
+const SmartButton = styled.button`
+  color: ${props => props.dark ? 'white' : 'dark'};
+  background: ${props => props.dark? 'black' : 'white' };
+  border: 1px solid crimson;
+  padding: 3px;
+`;
 
 function MainPage() {
   return (
     <Wrapper>
       <div>Main Page</div>
-      <Btn>
-      야옹
-      </Btn>
+      <SmartButton dark>Black Button</SmartButton>
     </Wrapper>
   )
 }

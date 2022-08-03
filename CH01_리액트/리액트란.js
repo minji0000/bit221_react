@@ -26,6 +26,23 @@
 - Virtual DOM ())
 
 
+
+
+
+
+
+- 컴포넌트 (Component)
+* 여러 개의 프로그램 함수들을 모아 하나의 특정한 기능을
+* 수행할 수 있도록 구성한 작은 기능적 단위
+
+- 엘리먼트(element)
+* 단위 개체로 간주하는 문서의 논리적 요소.
+* 다음과 같이 생긴 것
+* <p>이것은 문단입니다.</p>
+* <a href="..">민지 블로그</a>
+* 즉, 내용을 포함한 시작태그와 종료태그까지를 말한다.
+
+
 리액트 앱 프로젝트 생성
   NPM(Node Package Manager)
   : Node.js의 패키지 관리 시스템(Gradle이 메이븐 리포지터리에서 라이브러리를  다운받는 것과 비슷한 개념)
@@ -44,6 +61,10 @@
   Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
   npm install --global --production npm-windows-upgrade
   npm-windows-upgrade
+
+  
+
+
 
 
 

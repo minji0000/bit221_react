@@ -7,6 +7,6 @@ class Hello extends React.Component {
 
 ReactDOM.render(
   // 컴포넌트 사용
-  <Hello nickname = '붕어빵' />,
+  <Hello nickname = '잉어빵' />,
   document.getElementById('root')
 );
